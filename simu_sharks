@@ -1,11 +1,12 @@
 
-#########################################################################
-#Fst computation with migration, with m = 1/1000 and Nm = 1 and N = 1000#
-#########################################################################
+#############################################################################
+#Fst computation with migration, with m = 1/10000 and Nm = 10 and N = 100000#
+#############################################################################
 
 #This is a exemple of the scripts I used in the article "Large‐scale genetic 
 ##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
 ##or a genetic lag‐time effect of the “grey zone” of differentiation?".
+
 #written by Diane Bailleul, with the help of Bo Peng and Solenn Stoeckel.
 #email: diane.bailleul.pro@gmail.com
 
@@ -56,7 +57,7 @@ def calcFst(pop):
     return True
 
     
-pop = sim.Population([1000]*2, loci=[10]*10, infoFields='migrate_to')   
+pop = sim.Population([100000]*2, loci=[10]*10, infoFields='migrate_to')   
     
 pop.evolve(
 initOps=[
@@ -70,7 +71,7 @@ preOps=sim.Migrator(rate=[
 mode=sim.BY_PROPORTION),
 matingScheme=sim.RandomMating(ops=sim.Recombinator(rates=0.01)),
 postOps=[
-sim.PyOperator(func=calcFst, step=20)
+sim.PyOperator(func=calcFst, step=50)
 ],
 gen = 5000
 )
