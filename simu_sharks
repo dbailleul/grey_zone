@@ -1,7 +1,13 @@
 
-################################################################################
-####Calcul Fst avec migration avec m=1/1000 pour Nm = 1 avec N = 1000
-################################################################################
+#########################################################################
+#Fst computation with migration, with m = 1/1000 and Nm = 1 and N = 1000#
+#########################################################################
+
+#This is a exemple of the scripts I used in the article "Large‐scale genetic 
+##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
+##or a genetic lag‐time effect of the “grey zone” of differentiation?".
+#written by Diane Bailleul, with the help of Bo Peng and Solenn Stoeckel.
+#email: diane.bailleul.pro@gmail.com
 
 import simuPOP as sim
 import numpy as np
