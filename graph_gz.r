@@ -62,8 +62,9 @@ mtext("detection capacity", side = 2, line = 3, par(las = 0), col = "darkgreen")
 
 plotdegrad(nb_degrad = 2000, attenua = 700, xleft0 = 0, ybottom0 = 0, xright0 = 1170, ytop0 = 1)
 
-#a <- 2000 #number of shades
-#xright0 <- 250 #total length of the square
+#a <- 2000 #number of rectangles
+#b <- 700 #number of shades
+#xright0 <- 1170 #total length of the square
 #xleft0 <- 0
 #ybottom <- 0
 #ytop0 <- 1
