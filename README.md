@@ -3,21 +3,14 @@ These are exemples of the R and Python scripts used in the article
 worldwide population, or a genetic lag‐time effect of the “grey zone” of 
 differentiation?".
 
+First, generate data with the python files (grey_zone.py or bottleneck.py)
 
-#First, generate data with the python files (grey_zone.py or bottleneck.py)
+Second, load plotdegrad.r
 
+Then, use graph_gz.r to generate plots
 
-#Second, load plotdegrad.r
+With the adjustments necessary to your data.
 
+email: diane.bailleul.pro@gmail.com
 
-#Then, use graph_gz.r to generate plots
-
-
-#With the adjustments necessary to your data.
-
-
-#email: diane.bailleul.pro@gmail.com
-
-
-#Please, do not use (with or witout modifications) without citing
-##SimuPop/R and the original article.
+Please, do not use (with or witout modifications) without citing SimuPop/R and the original article.
