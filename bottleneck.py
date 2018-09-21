@@ -1,6 +1,18 @@
-############################################################################
-####Modèle 3 populations et Bottleneck, test
-############################################################################
+#This is a exemple of the scripts used in the article "Large‐scale genetic 
+##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
+##or a genetic lag‐time effect of the “grey zone” of differentiation?" to
+##determine the possible consequences of bottlenecks on the detection
+##of the grey zone.
+
+#written by Diane Bailleul, with the help of Bo Peng and Solenn Stoeckel.
+#email: diane.bailleul.pro@gmail.com
+
+#Please, do not use (with or witout modifications) without citing
+##SimuPop and the original article.
+
+#########################################################################################
+#Fst computation with migration, 3 populations and bottleneck at generation 500, N/10000#
+#########################################################################################
 
 import simuPOP as sim
 
