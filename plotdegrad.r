@@ -1,4 +1,4 @@
-#plotdegrad is a function used to plot area with grey shades
+#plotdegrad is a function used to plot area with rectangles of grey shades
 #author: Diane Bailleul
 #email: diane.bailleul.pro@gmail.com
 
