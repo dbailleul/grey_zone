@@ -1,14 +1,17 @@
+#This is a exemple of the scripts used in the article "Large‐scale genetic 
+##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
+##or a genetic lag‐time effect of the “grey zone” of differentiation?" to
+##determine the existence and duration of the grey zone.
+
+#written by Diane Bailleul, with the help of Bo Peng and Solenn Stoeckel.
+#email: diane.bailleul.pro@gmail.com
+
+#Please, do not use (with or witout modifications) without citing
+##SimuPop and the original article.
 
 #############################################################################
 #Fst computation with migration, with m = 1/10000 and Nm = 10 and N = 100000#
 #############################################################################
-
-#This is a exemple of the scripts I used in the article "Large‐scale genetic 
-##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
-##or a genetic lag‐time effect of the “grey zone” of differentiation?".
-
-#written by Diane Bailleul, with the help of Bo Peng and Solenn Stoeckel.
-#email: diane.bailleul.pro@gmail.com
 
 import simuPOP as sim
 import numpy as np
