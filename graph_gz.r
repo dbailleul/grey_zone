@@ -1,3 +1,14 @@
+#This is a exemple of the R scripts used in the article "Large‐scale genetic 
+##panmixia in the blue shark (Prionace glauca): A single worldwide population, 
+##or a genetic lag‐time effect of the “grey zone” of differentiation?" to
+##determine the existence and duration of the grey zone, for the graph generation.
+
+#written by Diane Bailleul
+#email: diane.bailleul.pro@gmail.com
+
+#Please, do not use (with or witout modifications) without citing
+##R and the original article.
+
 ##################################################
 #data treatment and graph generation for N=100000#
 ##################################################
